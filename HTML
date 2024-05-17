@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheel of Fortune</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wheel" id="wheel">
+        <canvas id="canvas" width="500" height="500"></canvas>
+      </div>
+      <button id="spinButton">Spin the Wheel</button>
+    </div>
+    <audio id="spinSound" src="GPTENG:get_audio('spinning sound')"></audio>
+    <audio id="winSound" src="GPTENG:get_audio('winning sound')"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
